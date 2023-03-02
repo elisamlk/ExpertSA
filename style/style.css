@@ -1,6 +1,4 @@
-*,
-::before,
-::after {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,7 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
   position: fixed;
   width: 100%;
   border-bottom: solid 1px #f16f51;
@@ -40,6 +38,10 @@ button:hover {
   color: #ffffff;
   background-color: #f16f51;
   border: solid 2px #f16f51;
+}
+
+.handle {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
