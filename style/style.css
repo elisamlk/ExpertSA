@@ -135,5 +135,49 @@ h3 {
     padding: 0;
   }
 }
+.discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.discover-img {
+  background-image: url(/img/photo-accueil-cabinet-meeting.png);
+  height: 100vh;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  object-fit: cover;
+  flex: 1;
+}
+
+.discover-txt {
+  flex: 1;
+  color: #ffffff;
+  padding: 0 50px 0 50px;
+}
+.discover-txt p {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .discover {
+    display: block;
+  }
+
+  .discover-img {
+    height: 60vh;
+    flex: 0;
+  }
+
+  .discover-txt {
+    padding: 0;
+    text-align: center;
+    flex: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
