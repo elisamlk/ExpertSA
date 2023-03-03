@@ -1,0 +1,109 @@
+.estimate {
+  padding: 0 70px 0 70px;
+  font-family: sans-serif;
+  background-color: #f8cdc5;
+  p {
+    text-align: center;
+  }
+}
+
+h4 {
+  font-size: 43px;
+  text-align: center;
+  padding: 30px;
+  span {
+    color: #f16f51;
+  }
+}
+
+h5 {
+  font-size: 31px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  article {
+    width: 428px;
+  }
+  .article-content {
+    width: 390px;
+    background-color: #ffffff;
+    border: solid 1.5px #000000;
+    padding: 25px;
+  }
+  p {
+    text-align: left;
+  }
+  img {
+    width: 385px;
+    height: 190px;
+    object-fit: cover;
+    margin-top: -120px;
+    margin-left: 25px;
+  }
+}
+
+.article-img:hover {
+  margin-top: -20px;
+}
+
+// .quote {
+//   width: 100%;
+//   border: solid 3px #f16f51;
+//   background-color: #f1aa9d;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: center;
+//   img {
+//     object-fit: cover;
+//     align-self: flex-start;
+//   }
+// }
+
+// .quote {
+//   width: 100%;
+//   border: solid 3px #f16f51;
+//   background-color: #f1aa9d;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+
+//   img {
+//     align-self: flex-start;
+//     width:100px;
+//   }
+//   h5,
+//   button {
+//     position: relative;
+//     top: 100px;
+//     text-align: center;
+//   }
+//   h5{
+//     font-size: 43px;
+//     padding:0 200px 0 200px;
+//   }
+//   button{
+//     margin-top:20px;
+//   }
+// }
+
+.quote {
+  width: 100%;
+  border: solid 3px #f16f51;
+  background-color: #f1aa9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  //   background-image: url(/img/illustration-accueil-bretagne.png);
+  //   background-repeat: no-repeat;
+  //   background-position: left;
+  //   background-size: 250px;
+  //  padding:60px;
+}
