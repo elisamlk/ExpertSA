@@ -1,0 +1,61 @@
+.presentation {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.presentation-txt,
+.presentation-img {
+  flex: 1;
+}
+
+.presentation-img img {
+  width: 100%;
+  object-fit: cover;
+  max-width: fit-content;
+}
+
+h2 {
+  color: #f16f51;
+  font-size: 43px;
+}
+
+h3 {
+  font-size: 43px;
+  margin-bottom: 20px;
+}
+
+.presentation-txt {
+  padding: 0 70px 0 35px;
+  p {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .presentation-txt {
+    text-align: center;
+    padding: 0;
+  }
+  .presentation-txt,
+  .presentation-img {
+    flex: 0;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .presentation-img img {
+    padding: 0;
+  }
+}
