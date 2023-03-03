@@ -1,0 +1,36 @@
+footer {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    .contact-info, .newsletter{
+        flex:1;
+    }
+}
+
+li{
+    display: flex;
+    align-items: center;
+   img{
+    margin-right:10px;
+   }
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom:auto;
+  img {
+    margin-right: 10px;
+  }
+}

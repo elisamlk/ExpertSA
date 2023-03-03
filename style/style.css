@@ -242,4 +242,40 @@ h5 {
   justify-content: space-evenly;
 }
 
+footer {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact .contact-info, .contact .newsletter {
+  flex: 1;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+li img {
+  margin-right: 10px;
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: auto;
+}
+.terms img {
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
