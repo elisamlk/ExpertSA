@@ -254,8 +254,11 @@ footer {
 .contact {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
-.contact .contact-info, .contact .newsletter {
+.contact .contact-info,
+.contact .newsletter {
   flex: 1;
 }
 
@@ -267,12 +270,20 @@ li img {
   margin-right: 10px;
 }
 
+h6 {
+  font-size: 43px;
+}
+
+input {
+  width: 100%;
+}
+
 .terms {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  bottom: auto;
+  text-align: center;
+  padding: 10px;
 }
 .terms img {
   margin-right: 10px;

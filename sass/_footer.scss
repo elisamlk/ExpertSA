@@ -5,31 +5,42 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
-.contact{
-    display: flex;
-    align-items: center;
-    .contact-info, .newsletter{
-        flex:1;
-    }
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  .contact-info,
+  .newsletter {
+    flex: 1;
+  }
 }
 
-li{
-    display: flex;
-    align-items: center;
-   img{
-    margin-right:10px;
-   }
+li {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
+}
+
+h6 {
+  font-size: 43px;
+}
+
+input {
+  width: 100%;
 }
 
 .terms {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  bottom:auto;
+  text-align: center;
+  padding: 10px;
+
   img {
     margin-right: 10px;
   }
