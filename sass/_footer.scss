@@ -10,8 +10,9 @@ footer {
 .contact {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-grow: 1;
+
   //   .contact-info
   //   .newsletter {
   //     flex: 1;
@@ -19,9 +20,14 @@ footer {
   //   }
   .contact-info {
     flex: 1;
+    padding-left: 50px;
   }
   .newsletter {
     flex: 1;
+    padding-right: 150px;
+  }
+  p {
+    margin-bottom: 42px;
   }
 }
 
@@ -36,6 +42,7 @@ li {
 
 h6 {
   font-size: 43px;
+  margin-bottom: 16px;
 }
 
 input {
@@ -43,6 +50,8 @@ input {
   background-color: #f8cdc5;
   border: solid 1px #f16f51;
   padding: 10px;
+  margin-bottom: 42px;
+  position: relative;
 }
 
 .terms {
@@ -58,15 +67,53 @@ input {
   }
 }
 
+.figure {
+  //     position:relative;
+
+  //     bottom:50px;
+  position: absolute;
+
+  //   top:50;
+  right: 5px;
+ 
+}
+
 @media screen and (max-width: 768px) {
   .contact {
     flex-direction: column;
     padding: 0;
   }
-  .contact-info {
+  .contact .contact-info {
+    padding: 0;
     flex: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .newsletter {
+  .contact .newsletter {
     flex: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+  .terms {
+    flex-direction: column;
+  }
+  .terms img {
+    margin-bottom: 10px;
+  }
+  .logo-footer {
+    width: 150px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  input{
+    width:300px;
+  }
+  .figure{
+    width:150px;
   }
 }
