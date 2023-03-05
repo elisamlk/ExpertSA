@@ -1,6 +1,4 @@
 .estimate {
-  padding: 0 70px 0 70px;
-  font-family: sans-serif;
   background-color: #f8cdc5;
   p {
     text-align: center;
@@ -10,7 +8,6 @@
 h4 {
   font-size: 43px;
   text-align: center;
-  padding: 30px;
   span {
     color: #f16f51;
   }
@@ -28,6 +25,7 @@ h5 {
   flex-wrap: wrap;
   article {
     width: 428px;
+    padding: 10px;
   }
   .article-content {
     width: 390px;
@@ -106,4 +104,26 @@ h5 {
   //   background-position: left;
   //   background-size: 250px;
   //  padding:60px;
+}
+
+@media screen and (max-width: 576px) {
+  .services article {
+    width: 300px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .services .article-content {
+    width: 273px;
+  }
+  .services img {
+    width: 270px;
+    margin-top: -160px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+    padding: 0;
+  }
 }
