@@ -16,6 +16,14 @@
   flex: 1;
 }
 
+.discover-img:hover {
+  background: url(../img/photo-accueil-cabinet-meeting-couleur.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  object-fit: cover;
+}
+
 .discover-txt {
   flex: 1;
   color: #ffffff;
