@@ -23,6 +23,7 @@ a {
   text-decoration: none;
   color: #ffffff;
   margin-right: 25px;
+  font-size: 18px;
 }
 
 button {
@@ -31,6 +32,7 @@ button {
   border: solid 2px #ffffff;
   border-radius: 20px;
   padding: 10px 20px 10px 20px;
+  font-size: 18px;
 }
 
 a:hover {
@@ -86,7 +88,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   nav {
     display: none;
   }
