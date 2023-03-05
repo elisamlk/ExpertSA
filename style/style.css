@@ -115,6 +115,7 @@ h3 {
 @media screen and (max-width: 768px) {
   .presentation {
     flex-direction: column;
+    height: fit-content;
   }
 
   .presentation-txt {
@@ -167,6 +168,7 @@ h3 {
 
 @media screen and (max-width: 768px) {
   .discover {
+    height: fit-content;
     display: block;
   }
 
