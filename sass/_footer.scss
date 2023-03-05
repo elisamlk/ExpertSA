@@ -75,10 +75,12 @@ input {
 
   //   top:50;
   right: 5px;
- 
 }
 
 @media screen and (max-width: 768px) {
+    footer{
+        height: fit-content;
+    }
   .contact {
     flex-direction: column;
     padding: 0;
@@ -110,10 +112,10 @@ input {
   h6 {
     font-size: 20px;
   }
-  input{
-    width:300px;
+  input {
+    width: 300px;
   }
-  .figure{
-    width:150px;
+  .figure {
+    width: 150px;
   }
 }
