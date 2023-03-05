@@ -193,7 +193,7 @@ h3 {
 
 .discover-img {
   height: 100vh;
-  background: url(/img/photo-accueil-cabinet-meeting.png);
+  background: url(../img/photo-accueil-cabinet-meeting.png);
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -278,6 +278,7 @@ h5 {
 
 .article-img:hover {
   margin-top: -20px;
+  transition: all 0.3s ease-out;
 }
 
 .quote {
