@@ -192,7 +192,7 @@ h3 {
 }
 
 .discover-img {
-  background-image: url(./img/photo-accueil-cabinet-meeting.png);
+  background-image: url(/img/photo-accueil-cabinet-meeting.png);
   height: 100vh;
   background-position: center;
   /* Center the image */
