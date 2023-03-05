@@ -41,6 +41,7 @@ button:hover {
   color: #ffffff;
   background-color: #f16f51;
   border: solid 2px #f16f51;
+  transition: all 0.4s ease-out;
 }
 
 .handle {
@@ -49,6 +50,41 @@ button:hover {
   font-size: 30px;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* sur Safari et Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* sur Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 768px) {
   nav {
     display: none;
@@ -67,12 +103,20 @@ button:hover {
 
   .mobile-device {
     flex-direction: column;
-    height: 100vh;
+    height: fit-content;
+    text-align: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    /* Firefox */
+    -webkit-animation: fadein 1s;
+    /* Safari et Chrome */
+    -o-animation: fadein 1s;
+    /* Opera */
   }
 
   a {
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
   }
 }
@@ -83,6 +127,7 @@ button:hover {
   align-items: center;
   background-color: #000000;
   color: #ffffff;
+  padding-top: 150px;
 }
 
 .presentation-txt,
@@ -282,7 +327,7 @@ footer {
 .contact {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-grow: 1;
 }
 .contact .contact-info {
