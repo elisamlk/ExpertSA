@@ -257,7 +257,9 @@ footer {
   justify-content: center;
   flex-grow: 1;
 }
-.contact .contact-info,
+.contact .contact-info {
+  flex: 1;
+}
 .contact .newsletter {
   flex: 1;
 }
@@ -265,6 +267,7 @@ footer {
 li {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 li img {
   margin-right: 10px;
@@ -276,6 +279,9 @@ h6 {
 
 input {
   width: 100%;
+  background-color: #f8cdc5;
+  border: solid 1px #f16f51;
+  padding: 10px;
 }
 
 .terms {
@@ -287,6 +293,21 @@ input {
 }
 .terms img {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contact-info {
+    flex: 0;
+  }
+
+  .newsletter {
+    flex: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
