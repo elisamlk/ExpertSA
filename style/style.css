@@ -193,21 +193,21 @@ h3 {
 
   .presentation-img {
     background-position: top;
-    background-size: 500px;
+    background-size: 400px;
   }
 
   .presentation-img:hover {
     background-position: top;
-    background-size: 500px;
+    background-size: 400px;
   }
 }
 @media screen and (max-width: 576px) {
   .presentation-img {
-    background-size: 300px;
+    background-size: 310px;
   }
 
   .presentation-img:hover {
-    background-size: 300px;
+    background-size: 310px;
   }
 }
 .discover {
