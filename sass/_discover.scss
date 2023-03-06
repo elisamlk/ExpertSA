@@ -31,6 +31,10 @@
   p {
     margin-bottom: 40px;
   }
+  h1 {
+    font-size: 43px;
+    color: #f16f51;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -46,5 +50,8 @@
     padding: 0;
     text-align: center;
     flex: 0;
+  }
+  h1{
+    font-size: 20px;
   }
 }
