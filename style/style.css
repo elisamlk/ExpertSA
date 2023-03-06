@@ -370,10 +370,13 @@ h3 {
 .estimate h4 {
   font-size: 43px;
   text-align: center;
-  padding: 20px;
+  padding: 40px 0 20px 0;
 }
 .estimate h4 span {
   color: #f16f51;
+}
+.estimate .estimate-txt {
+  padding: 0 300px 50px 300px;
 }
 
 h5 {
@@ -386,6 +389,7 @@ h5 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 .services article {
   width: 428px;
@@ -453,10 +457,6 @@ h5 {
     margin-top: -160px;
   }
 
-  h5 {
-    font-size: 20px;
-  }
-
   h4 {
     font-size: 20px;
     padding: 0;
@@ -468,6 +468,20 @@ h5 {
 
   .quote h4 {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .estimate h4 {
+    font-size: 20px;
+  }
+
+  .services h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .estimate .estimate-txt {
+    padding: 0 0 20px 0;
   }
 }
 footer {
