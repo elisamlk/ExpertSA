@@ -423,7 +423,7 @@ h5 {
   justify-content: space-evenly;
   padding: 25px;
   height: 250px;
-  background-image: url(/img/illustration-accueil-bretagne.png);
+  background-image: url(../img/illustration-accueil-bretagne.png);
   background-repeat: no-repeat;
   background-position: left;
 }
