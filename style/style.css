@@ -278,6 +278,16 @@ h3 {
     transform: translateX(-100%);
   }
 }
+@media screen and (max-width: 576px) {
+  .scrolling-txt {
+    font-size: 15px;
+  }
+}
+@media (min-width: 577px) and (max-width: 990px) {
+  .scrolling-txt {
+    font-size: 25px;
+  }
+}
 .discover {
   display: flex;
   justify-content: center;
