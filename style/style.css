@@ -129,7 +129,7 @@ button:hover {
   align-items: center;
   background-color: #000000;
   color: #ffffff;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .presentation-txt,
@@ -196,7 +196,8 @@ span {
 
   h2,
 h3 {
-    font-size: 20px;
+    font-size: 25px;
+    padding: 5px;
   }
 
   .presentation-img {
