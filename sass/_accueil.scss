@@ -47,8 +47,12 @@ h3 {
   }
 }
 
-h1, h2, h3, h4, h6, span{
-  font-family: 'Abril Fatface', cursive;
+h1,
+h2,
+h3,
+h4, h6,
+span {
+  font-family: "Abril Fatface", cursive;
 }
 
 @media screen and (max-width: 768px) {

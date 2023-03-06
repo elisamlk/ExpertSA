@@ -175,7 +175,11 @@ h3 {
   margin-bottom: 40px;
 }
 
-h1, h2, h3, h4, h6, span {
+h1,
+h2,
+h3,
+h4, h6,
+span {
   font-family: "Abril Fatface", cursive;
 }
 
@@ -357,17 +361,18 @@ h3 {
   }
 }
 .estimate {
+  padding: 0 20px 100px 20px;
   background-color: #f8cdc5;
 }
 .estimate p {
   text-align: center;
 }
-
-h4 {
+.estimate h4 {
   font-size: 43px;
   text-align: center;
+  padding: 20px;
 }
-h4 span {
+.estimate h4 span {
   color: #f16f51;
 }
 
@@ -416,6 +421,20 @@ h5 {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding: 25px;
+  height: 250px;
+  background-image: url(/img/illustration-accueil-bretagne.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.quote button {
+  background-color: #f1aa9d;
+  color: #000000;
+  border-color: #000000;
+}
+.quote button:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 576px) {
@@ -441,6 +460,15 @@ h5 {
   h4 {
     font-size: 20px;
     padding: 0;
+  }
+
+  .quote {
+    height: 200px;
+    background-size: 200px;
+  }
+
+  .quote h4 {
+    font-size: 20px;
   }
 }
 footer {

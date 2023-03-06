@@ -1,15 +1,17 @@
 .estimate {
+  padding: 0 20px 100px 20px;
   background-color: #f8cdc5;
   p {
     text-align: center;
   }
-}
+  h4 {
+    font-size: 43px;
+    text-align: center;
+    padding: 20px;
 
-h4 {
-  font-size: 43px;
-  text-align: center;
-  span {
-    color: #f16f51;
+    span {
+      color: #f16f51;
+    }
   }
 }
 
@@ -50,48 +52,6 @@ h5 {
   transition: all 0.3s ease-out;
 }
 
-// .quote {
-//   width: 100%;
-//   border: solid 3px #f16f51;
-//   background-color: #f1aa9d;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   align-items: center;
-//   img {
-//     object-fit: cover;
-//     align-self: flex-start;
-//   }
-// }
-
-// .quote {
-//   width: 100%;
-//   border: solid 3px #f16f51;
-//   background-color: #f1aa9d;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: column;
-
-//   img {
-//     align-self: flex-start;
-//     width:100px;
-//   }
-//   h5,
-//   button {
-//     position: relative;
-//     top: 100px;
-//     text-align: center;
-//   }
-//   h5{
-//     font-size: 43px;
-//     padding:0 200px 0 200px;
-//   }
-//   button{
-//     margin-top:20px;
-//   }
-// }
-
 .quote {
   width: 100%;
   border: solid 3px #f16f51;
@@ -100,11 +60,20 @@ h5 {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  //   background-image: url(/img/illustration-accueil-bretagne.png);
-  //   background-repeat: no-repeat;
-  //   background-position: left;
-  //   background-size: 250px;
-  //  padding:60px;
+  padding: 25px;
+  height: 250px;
+  background-image: url(/img/illustration-accueil-bretagne.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  button {
+    background-color: #f1aa9d;
+    color: #000000;
+    border-color: #000000;
+  }
+  button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -126,5 +95,12 @@ h5 {
   h4 {
     font-size: 20px;
     padding: 0;
+  }
+  .quote {
+    height: 200px;
+    background-size: 200px;
+  }
+  .quote h4 {
+    font-size: 20px;
   }
 }
